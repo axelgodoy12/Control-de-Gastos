@@ -1,0 +1,123 @@
+h1{
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+.claseFormulario{
+	margin: center;
+	padding-bottom: 20px;
+}
+#botonform{
+	font-size: 35px;
+	border-radius: 10px;
+  background-color: rgb(225, 127, 255);
+
+}
+/* td, 
+th{
+	padding: 10px;
+	text-align: center;
+} */
+.tableFormart table{
+    margin: 10px auto;
+}
+
+* {  
+  padding: 0;  
+  margin: 0;  
+  box-sizing: border-box;  
+ }  
+ #section1 {  
+  height: 40vh;  
+  width: 100%;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  flex-direction: column;  
+ }  
+ #boton1 {  
+  border: none;  
+  outline: none;  
+  background-color: aquamarine;  
+  font-size: 24px;  
+  font-family: "Montserrat";  
+  padding: 20px;  
+  cursor: pointer;
+  border-radius: 25px;  
+ }  
+ h2 {  
+  font-family: "Montserrat";  
+  font-size: 30px;  
+  margin-top: 30px;  
+ }
+ h3 {
+ 	font-family: "Montserrat";
+ 	font-size: 30px;
+ 	margin-top: 40px;
+ 	text-align: center;
+ 	color: blueviolet;
+ }
+ html {  
+  font-family: "Montserrat", sans-serif;  
+ }  
+ #section2 {  
+  background-color: rgb(18, 26, 31);  
+  min-height: 50vh;  
+  width: 100%;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+ }  
+ .container {  
+  width: 90%;  
+  max-width: 400px;  
+  background-color: rgb(39, 55, 59);  
+  border-radius: 8px;  
+  overflow: hidden;  
+ }  
+ .display {  
+  background-color: rgb(182, 182, 182);  
+  height: 100px;  
+  width: 100%;  
+  text-align: right;  
+  padding: 20px;  
+  font-size: 30px;  
+  position: relative;  
+ }  
+ .display-1 {  
+  opacity: 0.4;  
+  font-size: 20px;  
+  height: 20px;  
+  overflow: hidden;  
+ }  
+ .temp-result {  
+  position: absolute;  
+  bottom: 0;  
+  left: 10;  
+  font-size: 20px;  
+  opacity: 0.3;  
+ }  
+ .all_button {  
+  color: whitesmoke;  
+  display: grid;  
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);  
+ }  
+ .button {  
+  border: 0.5px solid rgba(92, 92, 92, 0.137);  
+  display: inline-block;  
+  height: 100px;  
+  width: 100%;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  font-size: 30px;  
+  cursor: pointer;  
+ }  
+ .button:hover {  
+  background-color: rgb(30, 43, 46);  
+ }  
+ .btn-0 {  
+  grid-column: 1/3;  
+ }  
